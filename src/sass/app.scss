@@ -170,7 +170,152 @@
     }
     &__arrow {
       width: 2%;
-      margin: -17% 0 0 45%;
+      margin: -17% 0 0 47%;
+    }
+  }
+  .labor {
+    padding: 0 5% 3% 10%;
+    &__line {
+      display: flex;
+      & h1 {
+        width: 80%;
+        font-weight: 700;
+        font-size: 48px;
+        text-transform: uppercase;
+        & span {
+          color: #D83838;
+        }
+      }
+      &_corners {
+        width: 12%;
+        height: 75px;
+        margin-right: 3%;
+      }
+      &_dissertation {
+        &_candidate {
+          display: flex;
+          border: 2px solid #D83838;
+          padding: 3% 0 3% 5%;
+          margin-top: 5%;
+          &_left {
+            width: 55%;
+            & h2 {
+              font-weight: 700;
+              font-size: 28px;
+              text-transform: uppercase;
+            }
+            &_line {
+              display: flex;
+              margin-top: 10%;
+              & h3 {
+                font-size: 24px;
+                font-weight: 700;
+              }
+              & h5 {
+                font-size: 16px;
+                font-weight: 400;
+                text-align: center;
+                color: #00000099;
+                margin-top: -7%;
+              }
+              & a {
+                height: 50px;
+                display: flex;
+                font-size: 16px;
+                font-weight: 500;
+                color: #ffffff;
+                background-color: #D83838;
+                align-items: center;
+                justify-content: center;
+                margin: 1% 0 0 5%;
+                padding: 0 4%;
+                &:hover {
+                  text-decoration: none;
+                  background-color: #FAF5F5D5;
+                  color: #D83838;
+                  border: 2px solid #000000;
+                }
+              }
+            }
+          }
+          &_right {
+            width: 35%;
+            & h4 {
+              font-size: 18px;
+              font-weight: 700;
+              & p {
+                font-weight: 400;
+                font-size: 18px;
+              }
+            }
+            &_list {
+              width: 10%;
+              height: 15px;
+            }
+          }
+        }
+        &_addt {
+          display: flex;
+          border: 2px solid #D83838;
+          background-color: #D83838;
+          color: #ffffff;
+          padding: 3% 0 3% 5%;
+          margin-top: 5%;
+          &_left {
+            width: 55%;
+            & h2 {
+              font-weight: 700;
+              font-size: 28px;
+              text-transform: uppercase;
+              & svg {
+                width: 12%;
+                height: 75px;
+              }
+            }
+            &_line {
+              display: flex;
+              margin-top: 5%;
+              & h3 {
+                font-size: 24px;
+                font-weight: 700;
+              }
+              & a {
+                height: 50px;
+                display: flex;
+                font-size: 16px;
+                font-weight: 500;
+                color: #D83838;
+                background-color: #ffffff;
+                align-items: center;
+                justify-content: center;
+                margin: 0% 0 0 5%;
+                padding: 0 4%;
+                &:hover {
+                  text-decoration: none;
+                  background-color: #B2ABABD5;
+                  color: #D83838;
+                  border: 2px solid #000000;
+                }
+              }
+            }
+          }
+          &_right {
+            width: 35%;
+            margin-top: 6%;
+            & p {
+              font-weight: 400;
+              font-size: 18px;
+            }
+            &_list {
+              width: 10%;
+              height: 15px;
+            }
+          }
+        }
+      }
+      &_phd {
+        margin-left: 5%;
+      }
     }
   }
 }
