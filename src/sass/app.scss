@@ -3,4 +3,71 @@
 @import '_desktop.scss';
 @import '_responsive';
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  padding: 2% 0 0 8%;
+  .hamburger-menu {
+    display: none;
+  }
+  & nav {
+    width: 65%;
+    margin: 1% 0 0 38%;
+    & ul {
+      display: flex;
+      list-style: none;
+      & li {
+        font-size: 14px;
+        margin-right: 8%;
+        & a {
+          font-weight: 500;
+          text-decoration: none;
+          color: #000000;
+          transition: 0.5s;
+          &:hover {
+            text-decoration: none;
+            background-color: #D83838E2;
+            color: #ffffff;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+  }
+  & svg {
+    width: 5%;
+    height: 22px;
+  }
+  .logo {
+    width: 15%;
+    height: 65px;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    &__telephone {
+      display: block;
+      & a {
+        display: inline-flex;
+        width: 47%;
+        font-size: 14px;
+        font-weight: 500;
+        color: #000000;
+        border-bottom: 1px solid #D83838;
+      }
+      &_line {
+        margin-left: 27%;
+        & svg {
+          width: 12%;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
 

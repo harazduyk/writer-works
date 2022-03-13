@@ -1,7 +1,7 @@
 {
     "name": "layout-template",
     "version": "v1.0.0",
-    "author": "Nasadyk Vladyslav",
+    "author": "Tatuyana Harazduyk",
     "license": "CS",
     "scripts": {
         "dev": "gulp",
