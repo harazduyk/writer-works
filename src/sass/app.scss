@@ -318,4 +318,63 @@
       }
     }
   }
+  .choice {
+    width: 100%;
+    padding: 3% 0 3% 0;
+    & h1 {
+      font-weight: 700;
+      font-size: 48px;
+      text-transform: uppercase;
+      margin-left: 10%;
+      & span {
+        color: #D83838;
+      }
+    }
+    &__line {
+      display: flex;
+      & svg {
+        width: 50%;
+        height: 460px;
+      }
+      &_number {
+        width: 80%;
+        margin-top: 5%;
+        & p {
+          font-size: 18px;
+          font-weight: 400;
+          margin-top: 7%;
+        }
+        &_line {
+          display: flex;
+          &_first {
+            width: 50%;
+            height: 125px;
+            background-image: url("../img/first.svg");
+            background-repeat: no-repeat;
+            margin-bottom: 5%;
+          }
+          &_second {
+            width: 50%;
+            height: 125px;
+            background-image: url("../img/second.svg");
+            background-repeat: no-repeat;
+            margin-bottom: 5%;
+          }
+          &_third {
+            width: 45%;
+            height: 112px;
+            background-image: url("../img/third.svg");
+            background-repeat: no-repeat;
+            margin: 0 5% 0 14%;
+          }
+          &_fourth {
+            width: 43%;
+            height: 112px;
+            background-image: url("../img/fourth.svg");
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
 }
