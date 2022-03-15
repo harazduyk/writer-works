@@ -423,4 +423,63 @@
       }
     }
   }
+  .topic {
+    width: 100%;
+    padding: 4% 0 2% 10%;
+    & h1 {
+      font-weight: 700;
+      font-size: 35px;
+      & span {
+        color: #D83838;
+      }
+    }
+    & p {
+      font-size: 22px;
+      font-weight: 500;
+    }
+    &__line {
+      display: flex;
+      margin-top: 1%;
+      &_circles {
+        width: 5%;
+        height: 35px;
+        margin-right: 1%;
+      }
+      & p {
+        width: 30%;
+      }
+      &_block {
+        width: 28%;
+        text-align: center;
+        margin-top: 2%;
+        & svg {
+          width: 25%;
+        }
+        & p {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+    & form {
+      width: 87%;
+      background-color: #313131;
+      display: flex;
+      padding: 2% 1%;
+      margin-top: 2%;
+      & input {
+        width: 26%;
+        margin-right: 2%;
+      }
+      & a {
+        width: 17%;
+        display: flex;
+        background-color: #D83838;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        padding: 1%;
+      }
+    }
+  }
 }
