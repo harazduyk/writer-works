@@ -377,4 +377,50 @@
       }
     }
   }
+  .specialty {
+    width: 100%;
+    padding: 2% 0;
+    & h1 {
+      width: 80%;
+      font-weight: 700;
+      font-size: 35px;
+      text-transform: uppercase;
+      margin-left: 10%;
+      & span {
+        color: #D83838;
+      }
+    }
+    & p {
+      font-size: 22px;
+      font-weight: 400;
+    }
+    &__line {
+      width: 100%;
+      display: flex;
+      border-bottom: 1px solid #000000;
+      padding-bottom: 1%;
+      margin-top: 2%;
+      & svg {
+        width: 5%;
+        height: 35px;
+        margin: 0 1% 0 10%;
+      }
+      & p {
+        width: 30%;
+      }
+    }
+    &__block {
+      width: 100%;
+      border-bottom: 1px solid #000000;
+      padding: 1.5% 3% 1% 0;
+      & p {
+        margin-left: 10%;
+      }
+      &:hover {
+        background-color: #D83838;
+        color: #ffffff;
+        transition: 0.5s;
+      }
+    }
+  }
 }
