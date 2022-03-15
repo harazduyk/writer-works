@@ -671,3 +671,35 @@
     }
   }
 }
+
+.footer {
+  display: flex;
+  padding: 2% 10%;
+  color: #ffffff;
+  background-color: #414040;
+  & div {
+    width: 50%;
+  }
+  &__logo {
+    width: 43%;
+    height: 60px;
+  }
+  &__services {
+    text-align: center;
+  }
+  &__conect {
+    text-align: end;
+    & svg {
+      width: 10%;
+      height: 25px;
+    }
+  }
+  & span {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  & h5 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
