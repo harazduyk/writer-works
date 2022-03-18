@@ -1,30 +1,1053 @@
-.container {
-  max-width: 1400px;
-}
 
 /**
   Десктоп маленький
  */
-@media screen and (max-width: 1429px) {
+@media (min-width: 1600px) and (max-width: 2565px)  {
+  .header {
+    padding-left: 15%;
+    & svg {
+      width: 10%;
+      height: 30px;
+    }
+    .logo {
+      width: 15%;
+      height: 100px;
+    }
+    .menu {
+      &__telephone {
+        a {
+          width: 70%;
+          font-size: 22px;
+        }
+        &_line {
+          margin: 1% 0 0 35%;
+          svg {
+            width: 22%;
+            height: 40px;
+          }
+        }
+      }
+    }
+    & nav {
+      margin-left: 30%;
+      & ul {
+        & li {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .main {
+    .page {
+      padding-left: 15%;;
+      & h2 {
+        width: 60%;
+        font-size: 80px;
+      }
+      & h3 {
+        font-size: 38px;
+      }
+      & button {
+        width: 25%;
+        font-size: 32px;
+        padding: 15px;
+      }
+      & p {
+        font-size: 30px;
+      }
+      & h1 {
+        font-size: 112px;
+        margin-right: 10%;
+      }
+      & svg {
+        width: 65%;
+        height: 845px;
+      }
+    }
+    .work {
+      padding: 0 15%;
+      & h2 {
+        font-size: 64px;
+      }
+      & p {
+        font-size: 38px;
+      }
+      & h1 {
+        font-size: 340px;
+      }
+    }
+    .labor {
+      padding: 0 15% 3% 15%;
+      &__line {
+        & h1 {
+          width: 80%;
+          font-size: 64px;
+        }
+        &_dissertation {
+          width: 80%;
+          &_candidate {
+            &_left {
+              & h2 {
+                font-size: 44px;
+              }
+              &_line {
+                & h3 {
+                  font-size: 32px;
+                }
+                & h5 {
+                  font-size: 30px;
+                }
+                & button {
+                  height: 65px;
+                  font-size: 28px;
+                  padding: 0 20px;
+                }
+              }
+            }
+            &_right {
+              & h4 {
+                font-size: 34px;
+              }
+              & p {
+                font-size: 25px;
+              }
+            }
+          }
+          &_addt {
+            &_left {
+              & h2 {
+                font-size: 44px;
+              }
+              &_line {
+                & h3 {
+                  font-size: 30px;
+                }
+                & button {
+                  height: 65px;
+                  font-size: 28px;
+                  padding: 0 20px;
+                }
+              }
+            }
+            &_right {
+              & p {
+                font-size: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .choice {
+      padding: 3% 15%;
+      & h1 {
+        font-size: 64px;
+        margin-left: 0;
+      }
+    }
+    .specialty {
+      & h1 {
+        font-size: 51px;
+        margin-left: 15%;
+      }
+      & p {
+        font-size: 38px;
+      }
+      &__line {
+        padding-bottom: 1%;
+        margin-top: 2%;
+        & svg {
+          width: 5%;
+          height: 35px;
+          margin: 0 1% 0 15%;
+        }
+      }
+      &__block {
+        padding: 1.5% 3% 1% 0;
+        & p {
+          margin-left: 15%;
+          margin-right: 10%;
+        }
+      }
+    }
+    .topic {
+      padding: 4% 0 2% 15%;
+      & h1 {
+        font-size: 51px;
+      }
+      & p {
+        font-size: 38px;
+      }
+      &__line {
+        display: flex;
+        margin-top: 1%;
+      }
+      & form {
+        & input {
+          width: 24%;
+          font-size: 30px;
+        }
+        & a {
+          width: 22%;
+          font-size: 32px;
+        }
+      }
+    }
+    .order {
+      padding: 0 0 2% 15%;
+      &__left {
+        & h1 {
+          font-size: 51px;
+        }
+        &_line {
+          & p {
+            font-size: 38px;
+          }
+        }
+        & h5 {
+          font-size: 34px;
+        }
+      }
+      & img {
+        margin-right: 10%;
+      }
+    }
+    .task {
+      padding-right: 15%;
+      & svg {
+        height: 600px;
+      }
+      &__right {
+        & h3 {
+          font-size: 38px;
+        }
+        & h4 {
+          font-size: 38px;
+        }
+      }
+    }
+    .saving {
+      padding: 5% 15%;
+      & h1 {
+        width: 60%;
+        font-size: 51px;
+      }
+      &__line {
+        & h4 {
+          font-size: 38px;
+        }
+        &_first {
+          width: 33%;
+          margin: 0 10% 0 10%;
+          & p {
+            width: 70%;
+            font-size: 22px;
+            margin: 10% 0 0 8%;
+          }
+        }
+        &_second {
+          width: 33%;
+          & p {
+            width: 70%;
+            font-size: 22px;
+            margin: 10% 0 0 8%;
+          }
+        }
+        &_third {
+          width: 33%;
+          margin: 0 10% 0 10%;
+          & p {
+            width: 70%;
+            font-size: 22px;
+            margin: 10% 0 0 8%;
+          }
+        }
+        &_fourth {
+          width: 33%;
+          & p {
+            width: 70%;
+            font-size: 22px;
+            margin: 10% 0 0 8%;
+          }
+        }
+      }
+    }
+    .connection {
+      padding: 2% 15% 5% 15%;
+      &__help {
+        padding: 4% 8% 4% 3%;
+        &_left {
+          width: 95%;
+          & h1 {
+            font-size: 58px;
+          }
+          & p {
+            font-size: 30px;
+          }
+        }
+        & form {
+          & input {
+            font-size: 30px;
+            padding: 5%;
+          }
+          & a {
+            font-size: 30px;
+            padding: 5%;
+          }
+        }
+      }
+    }
+    .modal-content {
+      width: 150%;
+      margin-left: -35%;
+      padding: 2% 0 5% 0;
+      & button {
+        & svg {
+          width: 10%;
+          height: 60px;
+        }
+      }
+      & h1 {
+        font-size: 66px;
+      }
+      & h3 {
+        font-size: 38px;
+        margin-bottom: 5%;
+      }
+      & form {
+        padding:  0 8%;
+        & input {
+          padding: 3%;
+          font-size: 30px;
+          margin-bottom: 6%;
+        }
+        & a {
+          width: 100%;
+          font-size: 30px;
+          padding: 3%;
+        }
+      }
+      & p {
+        font-size: 28px;
+      }
+    }
+  }
 }
 
 /**
   Планшет горизонтальный
  */
-@media screen and (max-width: 1279px) {
-  .container {
-    max-width: 100%;
+@media (min-width: 1024px) and (max-width: 1335px) {
+  .header {
+    & nav {
+      margin: 1% 0 0 10%;
+    }
+  }
+  .main {
+    .page {
+      & button {
+        width: 25%;
+        font-size: 18px;
+      }
+      & h1 {
+        font-size: 58px;
+      }
+      & h3 {
+        font-size: 17px;
+      }
+      & svg {
+        top: 15%;
+        height: 415px;
+      }
+    }
+    .work {
+      & h1 {
+        font-size: 150px;
+      }
+    }
+    .labor {
+      .labor__line_dissertation_candidate_left_line {
+        display: inline-block;
+      }
+      .labor__line_dissertation_addt_left_line {
+        display: inline-block;
+      }
+    }
+    .choice {
+      & p {
+        font-size: 16px;
+        margin-top: 10%;
+      }
+    }
+    .topic {
+      & form {
+        & input {
+          width: 24%;
+          font-size: 14px;
+        }
+        & a {
+          width: 22%;
+          font-size: 14px;
+        }
+      }
+    }
+    .order {
+      & img {
+        width: 45%;
+      }
+      & h1 {
+        font-size: 30px;
+      }
+      & p {
+        width: 100%;
+      }
+    }
+    .task {
+      & svg {
+        width: 120%;
+        height: 310px;
+      }
+    }
+    .saving {
+      & h1 {
+        width: 80%;
+      }
+      & p {
+        width: 80%;
+        font-size: 20px;
+        margin-top: 2%;
+      }
+      &__line {
+        &_first {
+          width: 70%;
+          margin-left: 10%;
+          padding-top: 7%;
+        }
+        &_second {
+          width: 70%;
+          margin-left: 10%;
+          padding-top: 7%;
+        }
+        &_third {
+          width: 70%;
+          margin-left: 10%;
+          padding-top: 7%;
+        }
+        &_fourth {
+          width: 70%;
+          margin-left: 10%;
+          padding-top: 7%;
+        }
+      }
+      .numbers {
+        display: inline-block;
+      }
+    }
+    .connection {
+      & h1 {
+        font-size: 36px;
+      }
+      & form {
+        margin-top: 10%;
+      }
+    }
   }
 }
 
 /**
   Планшет вертикальный
  */
-@media screen and (max-width: 1023px) {
+@media (min-width: 765px) and (max-width: 1023px) {
+  .header {
+    & nav {
+      margin: 1% 0 0 12%;
+    }
+  }
+  .main {
+    .page {
+      & button {
+        width: 35%;
+        font-size: 18px;
+      }
+      & h2 {
+        font-size: 50px;
+      }
+      & h1 {
+        font-size: 44px;
+      }
+      & h3 {
+        font-size: 17px;
+      }
+      & svg {
+        opacity: 0;
+      }
+    }
+    .work {
+      & h1 {
+        font-size: 110px;
+      }
+    }
+    .labor {
+      & h1 {
+        font-size: 38px;
+      }
+      .labor__line_dissertation_candidate_left_line {
+        display: inline-block;
+      }
+      .labor__line_dissertation_addt_left_line {
+        display: inline-block;
+      }
+      & h2 {
+        font-size: 24px;
+      }
+      & h4 {
+        font-size: 16px;
+      }
+      & p {
+        font-size: 14px;
+      }
+    }
+    .choice {
+      & h1 {
+        width: 60%;
+        font-size: 42px;
+      }
+      & p {
+        font-size: 16px;
+        margin-top: 10%;
+      }
+    }
+    .specialty {
+      & h1 {
+        font-size: 32px;
+      }
+      &__line {
+        & p {
+          width: 70%;
+        }
+      }
+    }
+    .topic {
+      & form {
+        display: inline-block;
+        text-align: center;
+        padding: 3% 0;
+        & input {
+          width: 51%;
+          font-size: 22px;
+          padding: 10px;
+          margin: 0 1.5% 3% 0;
+        }
+        & a {
+          width: 51%;
+          font-size: 22px;
+          margin: 0 auto;
+          padding: 10px;
+        }
+      }
+      &__line {
+        &_block {
+          margin-right: 2%;
+          & p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .order {
+      padding-bottom: 4%;
+      & img {
+        width: 35%;
+      }
+      & h1 {
+        font-size: 25px;
+      }
+      & p {
+        width: 100%;
+      }
+    }
+    .task {
+      & svg {
+        width: 170%;
+        height: 340px;
+      }
+    }
+    .saving {
+      & h1 {
+        width: 90%;
+      }
+      & p {
+        width: 85%;
+        font-size: 20px;
+        margin-top: 2%;
+      }
+      &__line {
+        &_first {
+          width: 90%;
+          margin-left: 5%;
+          padding-top: 7%;
+        }
+        &_second {
+          width: 90%;
+          margin-left: 5%;
+          padding-top: 7%;
+        }
+        &_third {
+          width: 90%;
+          margin-left: 5%;
+          padding-top: 7%;
+        }
+        &_fourth {
+          width: 90%;
+          margin-left: 5%;
+          padding-top: 7%;
+        }
+      }
+      .numbers {
+        display: inline-block;
+      }
+    }
+    .connection {
+      &__help {
+        display: inline-block;
+      }
+      & h1 {
+        font-size: 30px;
+      }
+      & form {
+        margin-top: 10%;
+      }
+    }
+  }
 }
 
 /**
   Мобильные устройства
  */
-@media screen and (max-width: 767px) {
+@media (min-width: 385px) and (max-width: 767px) {
+  .header {
+    .logo {
+      width: 100%;
+      height: 60px;
+    }
+    & nav {
+      display: none;
+    }
+    .menu__telephone {
+      display: none;
+    }
+    .hamburger-menu {
+      display: none;
+    }
+    @media (max-width: 1369px) {
+      .hamburger-menu {
+        display: block;
+      }
+    }
+    #menu__toggle {
+      opacity: 0;
+    }
+    #menu__toggle:checked~.menu__btn>span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked~.menu__btn>span::before {
+      top: 0;
+      transform: rotate(0);
+    }
+    #menu__toggle:checked~.menu__btn>span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked~.menu__box {
+      visibility: visible;
+      right: -5%;
+      top: 0;
+      width: 121%;
+      background-color: #D83838FA;
+    }
+    & li {
+      list-style: none;
+    }
+    .menu__telephon {
+      margin: 20% 0 0 60%;
+      & a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+      }
+      &_line {
+        text-align: center;
+        & svg {
+          width: 15%;
+        }
+      }
+    }
+    .menu__btn {
+      display: flex;
+      align-items: center;
+      position: relative;
+      bottom: 5%;
+      left: 0;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #ccc6c6;
+      transition-duration: .25s;
+    }
+    .menu__btn>span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__btn>span::after {
+      content: '';
+      top: 8px;
+    }
+    .menu__box {
+      display: block;
+      position: absolute;
+      visibility: hidden;
+      top: 0;
+      width: 100px;
+      margin: 0;
+      padding: 80px 0;
+      list-style: none;
+      background-color: #ECEFF1;
+      transition-duration: .25s;
+    }
+    .menu__item {
+      display: block;
+      padding: 12px 20px;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+      transition-duration: .20s;
+      margin-left: 65%;
+    }
+    .menu__item:hover {
+      background-color: #CFD8DC;
+    }
+  }
+  .main {
+    .modal-content {
+      & form {
+        & input {
+          width: 99%;
+          margin-bottom: 5%;
+          padding: 5%;
+        }
+      }
+    }
+    .page {
+      text-align: center;
+      padding: 2%;
+      & button {
+        width: 35%;
+        font-size: 18px;
+      }
+      & h2 {
+        font-size: 34px;
+      }
+      & h1 {
+        font-size: 60px;
+      }
+      & h3 {
+        font-size: 17px;
+      }
+      & svg {
+        opacity: 0;
+      }
+      & button {
+        width: 90%;
+        padding: 10px 0;
+        margin-left: 6%;
+      }
+      & p {
+        margin: 5% 0 0 17%;
+      }
+      &__line {
+        flex-wrap: wrap;
+        & h3 {
+          font-size: 12px;
+        }
+        &_inf {
+          margin: 0 auto;
+        }
+      }
+    }
+    .work {
+      &__line {
+        display: inline-block;
+        &_circles {
+          height: 260px;
+        }
+      }
+      & h1 {
+        font-size: 60px;
+      }
+      & h2 {
+        font-size: 30px;
+      }
+    }
+    .labor {
+      padding: 0 3% 3% 5%;
+      & h1 {
+        font-size: 19px;
+      }
+      &__line_phd {
+        display: none;
+      }
+      & button {
+        font-size: 20px;
+        padding: 0 12%;
+      }
+      .labor__line_dissertation_candidate {
+        display: inline-block;
+        &_left {
+          width: 100%;
+          &_line {
+            display: inline-block;
+            margin-top: 2%;
+          }
+        }
+        &_right {
+          width: 100%;
+        }
+      }
+      & h2 {
+        font-size: 24px;
+      }
+      & h4 {
+        font-size: 16px;
+        margin-top: 5%;
+      }
+      & p {
+        font-size: 14px;
+      }
+      .labor__line_dissertation_addt {
+        display: inline-block;
+        &_left {
+          width: 100%;
+          &_line {
+            display: inline-block;
+            margin-top: 2%;
+          }
+        }
+        &_right {
+          width: 100%;
+        }
+      }
+    }
+    .choice {
+      & h1 {
+        width: 90%;
+        font-size: 32px;
+      }
+      &__line {
+        display: inline-block;
+        & svg {
+          width: 100%;
+          height: 240px;
+        }
+        &_number {
+          width: 100%;
+          padding-left: 5%;
+          & p {
+            font-size: 18px;
+            margin-top: 7%;
+          }
+          &_line {
+            display: inline-block;
+            &_first {
+              width: 100%;
+              margin-bottom: 5%;
+            }
+            &_second {
+              width: 90%;
+              margin: 0 0 0 10%;
+            }
+            &_third {
+              width: 100%;
+              margin: 0;
+            }
+            &_fourth {
+              width: 90%;
+              margin: 0 0 0 10%;
+            }
+          }
+        }
+      }
+    }
+    .specialty {
+      & h1 {
+        width: 95%;
+        font-size: 21px;
+        margin-left: 3%;
+      }
+      & p {
+        font-size: 18px;
+      }
+      &__line {
+        & p {
+          width: 90%;
+        }
+        & svg {
+          margin-left: 3%;
+        }
+      }
+      &__block {
+        padding-left: 0;
+        & p {
+          margin-left: 3%;
+        }
+      }
+    }
+    .topic {
+      padding-left: 3%;
+      & h1 {
+        font-size: 25px;
+      }
+      & p {
+        font-size: 18px;
+      }
+      &__line {
+        flex-wrap: wrap;
+        & p {
+          width: 85%;
+        }
+        &_block {
+          width: 90%;
+          & p {
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+      & form {
+        display: inline-block;
+        text-align: center;
+        padding: 3% 0;
+        margin-left: 5%;
+        & input {
+          width: 85%;
+          font-size: 18px;
+          padding: 10px;
+          margin: 0 1.5% 3% 0;
+        }
+        & a {
+          width: 85%;
+          font-size: 22px;
+          margin: 0 auto;
+          padding: 14px;
+        }
+      }
+    }
+    .order {
+      display: inline-block;
+      padding-bottom: 4%;
+      & img {
+        width: 100%;
+      }
+      & h1 {
+        font-size: 25px;
+      }
+      & p {
+        width: 100%;
+      }
+      & h5 {
+        width: 90%;
+      }
+    }
+    .task {
+      display: inline-block;
+      padding: 0 0 3% 5%;
+      & svg {
+        display: none;
+      }
+    }
+    .saving {
+      padding: 5%;
+      & h1 {
+        width: 90%;
+        font-size: 22px;
+        margin-left: 5%;
+      }
+      & h4 {
+        width: 80%;
+        font-size: 16px;
+      }
+      & p {
+        width: 90%;
+        font-size: 17px;
+        margin-top: 2%;
+      }
+      & svg {
+        margin-left: 8%;
+      }
+      &__line {
+        &_first {
+          width: 100%;
+          margin-left: 0;
+          padding-top: 7%;
+          background-size: 100%;
+        }
+        &_second {
+          width: 100%;
+          margin-left: 0;
+          padding-top: 7%;
+          background-size: 100%;
+          margin-top: -20%;
+        }
+        &_third {
+          width: 100%;
+          margin-left: 0;
+          padding-top: 7%;
+          background-size: 100%;
+          margin-top: -20%;
+          padding-right: 2%;
+        }
+        &_fourth {
+          width: 100%;
+          margin-left: 0;
+          padding-top: 7%;
+          background-size: 100%;
+          margin-top: -20%;
+        }
+      }
+      .numbers {
+        display: inline-block;
+      }
+    }
+    .connection {
+      &__help {
+        display: inline-block;
+      }
+      & h1 {
+        font-size: 22px;
+      }
+      & p {
+        font-size: 20px;
+      }
+      & form {
+        margin-top: 10%;
+      }
+    }
+  }
+  .footer {
+    & h5 {
+      font-size: 10px;
+    }
+    & span {
+      font-size: 5px;
+    }
+  }
 }

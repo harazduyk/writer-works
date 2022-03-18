@@ -13,7 +13,7 @@
     <h2>Допоможемо у розробці дисертації <span>"під ключ"</span></h2>
     <h3>Яка у вас спеціальність? Терміни? Які напрацювання є?</h3>
     <div class="page__line">
-      <a href="#">Проконсультуватися</a>
+      <button data-bs-toggle="modal" data-bs-target="#advice">Проконсультуватися</button>
       <p>Прорахуємо вартість вашої <br> роботи та сформуємо пропозицію</p>
     </div>
     <svg>
@@ -39,6 +39,28 @@
     </div>
   </section>
 
+<!--  Modal-->
+
+  <div class="modal fade" id="advice" tabindex="-1" aria-labelledby="advice" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button data-bs-dismiss="modal" aria-label="close"><svg>
+          <use xlink:href="./img/sprite.svg#exit"></use>
+        </svg></button>
+        <h1>Замовити консультацію</h1>
+        <h3>Передзвонимо, проконсультуємо <br> з усіх питань</h3>
+        <form action="#" method="get">
+          <input type="text" required placeholder="Ваше ім'я">
+          <input type="text" required placeholder="Ваш телефон">
+          <a href="#">Жду дзвінка</a>
+        </form>
+        <p>Натискаючи кнопку, ви погоджуєтесь на обробку <br> персональних даних</p>
+      </div>
+    </div>
+  </div>
+
+<!--  Modal-->
+
   <section class="work">
     <div class="work__line">
       <svg class="work__line_circles">
@@ -55,7 +77,7 @@
         </div>
       </div>
     </div>
-    <h1>Послуги</h1>
+    <h1  id="services">Послуги</h1>
     <svg class="work__arrow ">
       <use xlink:href="./img/sprite.svg#arrow"></use>
     </svg>
@@ -78,7 +100,7 @@
                 <h3>від 58 000 грн</h3>
                 <h5>(вигода до 25%)</h5>
               </div>
-              <a href="#">Проконсультуватися</a>
+              <button data-bs-toggle="modal" data-bs-target="#advice">Проконсультуватися</button>
             </div>
           </div>
           <div class="labor__line_dissertation_candidate_right">
@@ -117,7 +139,7 @@
                 <h3>від 210 000 грн</h3>
                 <h5>(вигода до 35%)</h5>
               </div>
-              <a href="#">Проконсультуватися</a>
+              <button data-bs-toggle="modal" data-bs-target="#advice">Проконсультуватися</button>
             </div>
           </div>
           <div class="labor__line_dissertation_candidate_right">
@@ -164,7 +186,7 @@
             </h2>
             <div class="labor__line_dissertation_addt_left_line">
               <h3>від 2 300 грн</h3>
-              <a href="#">Проконсультуватися</a>
+              <button data-bs-toggle="modal" data-bs-target="#advice">Проконсультуватися</button>
             </div>
           </div>
           <div class="labor__line_dissertation_addt_right">
@@ -218,7 +240,7 @@
     </div>
   </section>
 
-  <section class="specialty">
+  <section class="specialty" id="portfolio">
     <h1><span>Ми розуміємо</span>, наскільки важливо знайти хороших виконавців для своєї дисертації, тому показуємо вам які <span>роботи здатні виконувати.</span></h1>
     <div class="specialty__line">
       <svg>
@@ -296,7 +318,7 @@
     <img src="./img/Rectangle.png" alt="#">
   </section>
 
-  <section class="task">
+  <section class="task" id="why">
     <svg>
       <use xlink:href="./img/sprite.svg#lines-white"></use>
     </svg>
@@ -314,7 +336,7 @@
       </svg>
       <h4>За нашою статистикою, в середньому ми заощаджуємо своїм клієнтам від 4 до 9 місяців життя</h4>
     </div>
-    <div class="saving__line">
+    <div class="saving__line numbers">
       <div class="saving__line_first">
         <p>У розробці правильного змісту, щоб надалі вистачило матеріалу для написання розділів</p>
       </div>
@@ -322,7 +344,7 @@
         <p>У пошуку та підборі величезної кількості літератури, її обробці та впровадженні у працю</p>
       </div>
     </div>
-    <div class="saving__line">
+    <div class="saving__line numbers">
       <div class="saving__line_third">
         <p>У форматуванні тексту для проходження строгих систем перевірки плагіату</p>
       </div>
