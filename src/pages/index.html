@@ -39,9 +39,9 @@
     </div>
   </section>
 
-<!--  Modal-->
+<!--  Modal first-->
 
-  <div class="modal fade" id="advice" tabindex="-1" aria-labelledby="advice" aria-hidden="true">
+  <div class="modal fade first" id="advice" tabindex="-1" aria-labelledby="advice" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <button data-bs-dismiss="modal" aria-label="close"><svg>
@@ -49,10 +49,10 @@
         </svg></button>
         <h1>Замовити консультацію</h1>
         <h3>Передзвонимо, проконсультуємо <br> з усіх питань</h3>
-        <form action="#" method="get">
-          <input type="text" required placeholder="Ваше ім'я">
-          <input type="text" required placeholder="Ваш телефон">
-          <a href="#">Жду дзвінка</a>
+        <form>
+          <input class="name" type="text" required placeholder="Ваше ім'я">
+          <input class="tel" type="text" required placeholder="Ваш телефон">
+          <button onclick="sendForm(); event.preventDefault()">Жду дзвінка</button>
         </form>
         <p>Натискаючи кнопку, ви погоджуєтесь на обробку <br> персональних даних</p>
       </div>
@@ -60,6 +60,39 @@
   </div>
 
 <!--  Modal-->
+
+  <!--  Modal second-->
+
+  <div class="modal fade second" id="adviced" tabindex="-1" aria-labelledby="adviced" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button data-bs-dismiss="modal" aria-label="close" onclick="window.location.reload()"><svg>
+          <use xlink:href="./img/sprite.svg#exit"></use>
+        </svg></button>
+        <h1>Виникла помилка</h1>
+        <h3>Спробуйте ще раз</h3>
+      </div>
+    </div>
+  </div>
+
+  <!--  Modal-->
+
+  <!--  Modal third-->
+
+  <div class="modal fade third" id="advices" tabindex="-1" aria-labelledby="advices" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button data-bs-dismiss="modal" aria-label="close" onclick="window.location.reload()"><svg>
+          <use xlink:href="./img/sprite.svg#exit"></use>
+        </svg></button>
+        <h1>Вашу заявку відправлено</h1>
+        <h3>Очікуйте дзвінка менеджера протягом 15 хвилин</h3>
+        <p>Робочий час з 10:00 до 19:00</p>
+      </div>
+    </div>
+  </div>
+
+  <!--  Modal-->
 
   <section class="work">
     <div class="work__line">
@@ -296,11 +329,11 @@
         <p>повний супровід</p>
       </div>
     </div>
-    <form action="#" method="get">
-      <input type="text" required placeholder="Ваше ім'я">
-      <input type="text" required placeholder="Ваш телефон">
-      <input type="text" placeholder='Яка у вас спеціальність'>
-      <a href="#">Проконсультуватися</a>
+    <form>
+      <input class="name" type="text" required placeholder="Ваше ім'я">
+      <input class="tel" type="text" required placeholder="Ваш телефон">
+      <input class="detail" type="text" placeholder='Яка у вас спеціальність'>
+      <button onclick="sendForm(); event.preventDefault()">Проконсультуватися</button>
     </form>
   </section>
 
@@ -360,10 +393,10 @@
         <h1>Якщо ви все ще сумніваєтеся, чи зможемо <span>ми вам якісно допомогти</span></h1>
         <p>Залишіть свій контакт і ми переконаємо вас, що співпраця з нами — <span>одне з найправильніших ваших рішень за останні кілька років.</span> </p>
       </div>
-      <form action="#" method="get">
-        <input type="text" required placeholder="Ваше ім'я">
-        <input type="text" required placeholder="Ваш телефон">
-        <a href="#">Жду дзвінка</a>
+      <form>
+        <input class="name" type="text" required placeholder="Ваше ім'я">
+        <input class="tel" type="text" required placeholder="Ваш телефон">
+        <button onclick="sendForm(); event.preventDefault()">Жду дзвінка</button>
       </form>
     </div>
   </section>
