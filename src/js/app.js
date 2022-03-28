@@ -17,12 +17,12 @@ function openFinish() {
   third_modal.style.opacity = '1'
 }
 
-function displayText() {
-  let textP = document.querySelectorAll('.audit')
-  textP.style.display = 'block'
-}
-
 function sendFormFirst() {
+  let nameError = document.querySelector('.name_error')
+  let phoneError = document.querySelector('.phone_error')
+  nameError.style.display = 'none'
+  phoneError.style.display = 'none'
+
   let name = document.querySelector('.name').value
   let tel = document.querySelector('.telephone').value
   let email = 'tatuyana.harazduyk@gmail.com'
@@ -32,8 +32,14 @@ function sendFormFirst() {
     tel,
     email
   }
-  if (name < 3 || tel < 4) {
-    displayText()
+  if (name.length < 3 || tel.length < 4) {
+    if (name.length < 3) {
+      nameError.style.display = 'block'
+    }
+    if (tel.length < 4) {
+      phoneError.style.display = 'block'
+
+    }
   } else {
     fetch('https://cars-test-bd.herokuapp.com/mails/send', {
       method: 'POST',
@@ -56,6 +62,11 @@ function sendFormFirst() {
 }
 
 function sendFormSecond() {
+  let namesError = document.querySelector('.nameS_error')
+  let phonesError = document.querySelector('.phoneS_error')
+  namesError.style.display = 'none'
+  phonesError.style.display = 'none'
+
   let name = document.querySelector('.nameS').value
   let tel = document.querySelector('.telephoneS').value
   let detail = document.querySelector('.detail').value
@@ -69,7 +80,12 @@ function sendFormSecond() {
   }
 
   if (name < 3 || tel < 4) {
-    displayText()
+    if (name.length < 3) {
+      namesError.style.display = 'block'
+    }
+    if (tel.length < 4) {
+      phonesError.style.display = 'block'
+    }
   } else {
     fetch('https://cars-test-bd.herokuapp.com/mails/send', {
       method: 'POST',
@@ -91,6 +107,11 @@ function sendFormSecond() {
 }
 
 function sendFormThird() {
+  let nametError = document.querySelector('.nameT_error')
+  let phonetError = document.querySelector('.phoneT_error')
+  nametError.style.display = 'none'
+  phonetError.style.display = 'none'
+
   let name = document.querySelector('.nameT').value
   let tel = document.querySelector('.telephoneT').value
   let email = 'tatuyana.harazduyk@gmail.com'
@@ -101,7 +122,12 @@ function sendFormThird() {
     email
   }
   if (name < 3 || tel < 4) {
-    displayText()
+    if (name.length < 3) {
+      nametError.style.display = 'block'
+    }
+    if (tel.length < 4) {
+      phonetError.style.display = 'block'
+    }
   } else {
     fetch('https://cars-test-bd.herokuapp.com/mails/send', {
       method: 'POST',

@@ -477,12 +477,24 @@ body {
       display: flex;
       padding: 2% 1%;
       margin-top: 2%;
+      & p {
+        color: #D83838;
+        margin-top: -1%;
+        display: none;
+      }
       & input {
         width: 26%;
         margin-right: 2%;
       }
+      & div {
+        width: 26%;
+        margin-right: 2%;
+        & input {
+          width: 100%;
+          padding: 4% 0;
+        }
+      }
       & button {
-        width: 17%;
         display: flex;
         background-color: #D83838;
         font-size: 16px;
@@ -682,6 +694,11 @@ body {
             color: #D83838;
           }
         }
+        & p {
+          color: #D83838;
+          margin-top: -1%;
+          display: none;
+        }
       }
     }
   }
@@ -795,7 +812,19 @@ body {
     font-size: 14px;
     font-weight: 500;
   }
+  & a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+  }
 }
+//.hide {
+//  display: none;
+//}
+//.show {
+//  display: block;
+//}
 
 
 @import '_responsive';

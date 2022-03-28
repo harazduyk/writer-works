@@ -7,9 +7,11 @@
       <h1>Замовити консультацію</h1>
       <h3>Передзвонимо, проконсультуємо <br> з усіх питань</h3>
       <form>
+        <p class='name_error'>Введіть ім'я</p>
         <input class="name field" type="text" required placeholder="Ваше ім'я">
+        <p class="phone_error">Введіть телефон</p>
         <input class="telephone field" type="text" required placeholder="Ваш телефон">
-        <button onclick="sendFormFirst(); event.preventDefault()">Жду дзвінка</button>
+        <button type="button" onclick="sendFormFirst(); event.preventDefault()">Жду дзвінка</button>
       </form>
       <p>Натискаючи кнопку, ви погоджуєтесь на обробку <br> персональних даних</p>
     </div>

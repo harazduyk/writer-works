@@ -385,10 +385,6 @@
           width: 24%;
           font-size: 14px;
         }
-        & a {
-          width: 22%;
-          font-size: 14px;
-        }
       }
     }
     .order {
@@ -538,11 +534,8 @@
           padding: 10px;
           margin: 0 1.5% 3% 0;
         }
-        & a {
-          width: 51%;
-          font-size: 22px;
+        & button {
           margin: 0 auto;
-          padding: 10px;
         }
       }
       &__line {
@@ -943,11 +936,8 @@
           padding: 10px;
           margin: 0 1.5% 3% 0;
         }
-        & a {
-          width: 85%;
-          font-size: 22px;
+        & button {
           margin: 0 auto;
-          padding: 14px;
         }
       }
     }

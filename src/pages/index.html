@@ -284,10 +284,16 @@
       </div>
     </div>
     <form>
-      <input class="nameS" type="text" required placeholder="Ваше ім'я">
-      <input class="telephoneS" type="text" required placeholder="Ваш телефон">
+      <div>
+        <p class="nameS_error">Введіть ім'я</p>
+        <input class="nameS" type="text" required placeholder="Ваше ім'я">
+      </div>
+      <div>
+        <p class="phoneS_error">Введіть телефон</p>
+        <input class="telephoneS" type="text" required placeholder="Ваш телефон">
+      </div>
       <input class="detail" type="text" placeholder='Яка у вас спеціальність'>
-      <button onclick="sendFormSecond(); event.preventDefault()">Проконсультуватися</button>
+      <button type="button" onclick="sendFormSecond(); event.preventDefault()">Проконсультуватися</button>
     </form>
   </section>
 
@@ -348,9 +354,11 @@
         <p>Залишіть свій контакт і ми переконаємо вас, що співпраця з нами — <span>одне з найправильніших ваших рішень за останні кілька років.</span> </p>
       </div>
       <form>
+        <p class="nameT_error">Введіть ім'я</p>
         <input class="nameT" type="text" required placeholder="Ваше ім'я">
+        <p class="phoneT_error">Введіть телефон</p>
         <input class="telephoneT" type="text" required placeholder="Ваш телефон">
-        <button onclick="sendFormThird(); event.preventDefault()">Жду дзвінка</button>
+        <button type="button" onclick="sendFormThird(); event.preventDefault()">Жду дзвінка</button>
       </form>
     </div>
   </section>
